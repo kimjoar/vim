@@ -21,6 +21,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'tpope/vim-surround'
 Bundle 'ervandew/supertab'
+Bundle 'chriskempson/base16-vim'
 
 " My setup
 " --------
