@@ -13,3 +13,5 @@ git clone https://github.com/kjbekkelund/vim.git ~/dev/vim \
   && ln -s ~/dev/vim/.vimrc ~/.vimrc \
   && ln -s ~/dev/vim/.gvimrc ~/.gvimrc
 ```
+
+Launch vim and run `:PluginInstall`
