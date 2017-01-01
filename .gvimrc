@@ -8,7 +8,7 @@ set guioptions=em
 set guioptions-=T
 
 " Set font
-set guifont=Source\ Code\ Pro:h18
+set guifont=Source\ Code\ Pro\ Light:h18
 
 set background=dark
 

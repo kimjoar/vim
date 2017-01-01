@@ -15,13 +15,14 @@ Bundle 'gmarik/vundle'
 " :BundleSearch(!) foo - search(or refresh cache first) for foo
 " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
 
+Bundle 'terryma/vim-multiple-cursors'
 Bundle 'kien/ctrlp.vim'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'pangloss/vim-javascript'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'tpope/vim-surround'
 Bundle 'ervandew/supertab'
-Bundle 'chriskempson/base16-vim'
+Plugin 'chriskempson/base16-vim'
 Bundle 'junegunn/goyo.vim'
 
 " My setup
@@ -70,11 +71,14 @@ if exists("+undofile")
   set undofile
 endif
 
+set backupdir=~/.vim/tmp,.
+set directory=~/.vim/tmp,.
+
 " Whitespace stuff
 set nowrap        " don't soft wrap long lines
-set tabstop=4     " spaces per tab
-set shiftwidth=4  " characters to indent
-set softtabstop=4 " make spaces feel like tabs
+set tabstop=2     " spaces per tab
+set shiftwidth=2  " characters to indent
+set softtabstop=2 " make spaces feel like tabs
 set expandtab     " insert space on tab
 set list          " show invisible characters
 set listchars=tab:>·,trail:· " ... but only show tabs and trailing whitespace
