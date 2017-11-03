@@ -13,6 +13,6 @@ set guifont=Source\ Code\ Pro\ Light:h18
 set background=dark
 
 try
-    colorscheme base16-tomorrow
+    colorscheme base16-nord
 catch
 endtry
