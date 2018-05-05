@@ -23,7 +23,6 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'tpope/vim-surround'
 Bundle 'ervandew/supertab'
 Plugin 'chriskempson/base16-vim'
-Bundle 'junegunn/goyo.vim'
 
 " My setup
 " --------
@@ -111,9 +110,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 " Re-hardwrap paragraphs of text
 nnoremap <leader>q gqip
-
-" Map Goyo
-nnoremap <Leader>g :Goyo<CR>  
 
 " Keep search matches in the middle of the window and pulse the line when
 " moving to them.
