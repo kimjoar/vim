@@ -2,11 +2,10 @@ set encoding=utf-8
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-" let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " Vundle help
 " -----------
